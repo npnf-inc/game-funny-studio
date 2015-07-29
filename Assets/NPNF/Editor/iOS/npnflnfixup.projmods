@@ -1,0 +1,20 @@
+{
+  "group": "NPNF",
+  "patches": [],
+  "libs": [],
+  "librarysearchpaths": [
+    "NPNF/Editor/iOS/",
+  ],
+  "frameworksearchpaths": [
+    "NPNF/Editor/iOS/",
+  ],
+  "frameworks": [
+  ],
+  "headerpaths": [],
+  "files": [
+    "NPNF/Editor/iOS/NPNFLocalNotifications.h",
+    "NPNF/Editor/iOS/NPNFLocalNotifications.mm",
+  ],
+  "folders": [],	
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

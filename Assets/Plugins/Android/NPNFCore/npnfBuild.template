@@ -1,0 +1,5 @@
+bundle_id=BUNDLE_ID
+new_package_path=PACKAGE_PATH
+old_bundle_id=OLD_BID
+old_package_path=OLD_PPATH
+android_home=ANDROID_HOME

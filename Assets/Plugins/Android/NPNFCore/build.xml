@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="NPNFAndroid">
+    <property file="npnfBuild.properties"/>
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="Android 4.4.2.libraryclasspath">
+        <pathelement location="${android_home}/android.jar"/>
+    </path>
+    <path id="Android Private Libraries.libraryclasspath">
+        <pathelement location="libs/skp_pushplanet_android_sdk-20140218-AWS-2.05-release.jar"/>
+    </path>
+    <path id="Android Dependencies.libraryclasspath"/>
+    <path id="NPNFAndroid.classpath">
+        <pathelement location="bin/classes"/>
+        <path refid="Android 4.4.2.libraryclasspath"/>
+        <path refid="Android Private Libraries.libraryclasspath"/>
+        <path refid="Android Dependencies.libraryclasspath"/>
+        <pathelement location="libs/skp_pushplanet_android_sdk-20140218-AWS-2.05-release.jar"/>
+        <pathelement location="lib/android-support-v4.jar"/>
+        <pathelement location="lib/classes.jar"/>
+    </path>
+
+
+    <target name="repackage">
+    <!-- Replaces all of the references to the old package name in files in the "src" directory -->
+    	<replace dir="src" value="${bundle_id}" token="${old_bundle_id}" summary="true"/>
+
+    <!-- renames the src folders -->
+   		<move toDir="src/${new_package_path}">
+       		 <fileset dir="src/${old_package_path}"/>
+    	</move>
+
+    <!-- replaces the package name in the manifest -->
+   	    <replace file="AndroidManifest.xml" value="${bundle_id}" token="${old_bundle_id}" summary="true"/>
+	</target>
+
+    <target name="clean" depends="repackage">
+        <delete dir="bin/classes"/>
+		<delete includeemptydirs="true">
+		  <fileset dir="./src/com/">
+		    <and>
+		      <size value="0"/>
+		      <type type="dir"/>
+		     </and>
+		  </fileset>
+		</delete>
+    </target>
+    <target depends="clean" name="cleanall"/>
+
+    <target name="init" depends="clean">
+        <mkdir dir="bin/classes"/>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target depends="build-subprojects,build-project" name="build">
+    	 <zip zipfile="bin/classes/../npnfandroid.jar" basedir="bin/classes" />
+    </target>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="NPNFAndroid.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    
+</project>

@@ -1,0 +1,5 @@
+To rebuild native code:
+1. Navigate to the jni folder
+2. Run "ndk-build NDK_PROJECT_PATH=. NDK_APPLICATION_MK=Application.mk"
+3. Move NPNFAnalytics/jni/libs folder to NPNFAnalytics/libs, making sure not to remove any existing files
+

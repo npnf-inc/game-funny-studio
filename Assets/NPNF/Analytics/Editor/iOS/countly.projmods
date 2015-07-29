@@ -1,0 +1,23 @@
+{
+  "group": "Countly",
+  "patches": [],
+  "libs": [],
+  "frameworks": [
+    "CoreData.framework",
+    "CoreTelephony.framework",
+  ],
+  "headerpaths": [],
+  "files": [
+		"Countly.xcdatamodeld",
+    "Countly.h",
+    "Countly.m",
+    "Countly_OpenUDID.h",
+    "Countly_OpenUDID.m",
+		"CountlyDB.h",
+		"CountlyDB.m",
+		"CountlyClientImpl.h",
+		"CountlyClientImpl.mm",
+  ],
+  "folders": [],
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

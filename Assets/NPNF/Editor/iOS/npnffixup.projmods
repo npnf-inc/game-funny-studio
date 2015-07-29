@@ -1,0 +1,22 @@
+{
+  "group": "NPNF",
+  "patches": [],
+  "libs": [],
+  "librarysearchpaths": [
+    "NPNF/Editor/iOS/",
+  ],
+  "frameworksearchpaths": [
+    "NPNF/Editor/iOS/",
+  ],
+  "frameworks": [
+    "AdSupport.framework",
+    "StoreKit.framework"
+  ],
+  "headerpaths": [],
+  "files": [
+    "NPNF/Editor/iOS/NPNFUnityIOSBridge.h",
+    "NPNF/Editor/iOS/NPNFUnityIOSBridge.mm",
+  ],
+  "folders": [],	
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

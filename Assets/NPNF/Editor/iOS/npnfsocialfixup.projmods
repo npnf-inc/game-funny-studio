@@ -1,0 +1,21 @@
+{
+  "group": "NPNF",
+  "patches": [],
+  "libs": [],
+  "librarysearchpaths": [
+    "NPNF/Editor/iOS/",
+  ],
+  "frameworksearchpaths": [
+    "NPNF/Editor/iOS/",
+  ],
+  "frameworks": [
+  	"AddressBook.framework",
+  ],
+  "headerpaths": [],
+  "files": [
+    "NPNF/Editor/iOS/NPNFSocial.h",
+    "NPNF/Editor/iOS/NPNFSocial.mm",
+  ],
+  "folders": [],	
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

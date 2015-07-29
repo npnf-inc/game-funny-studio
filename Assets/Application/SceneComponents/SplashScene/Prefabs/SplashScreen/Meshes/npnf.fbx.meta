@@ -1,0 +1,129 @@
+fileFormatVersion: 2
+guid: d71c6e059dbeb44ca9e4bd3fd2f294cc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: npnf_geo
+    100004: whiteDot01_geo
+    100006: whiteDot02_geo
+    100008: whiteDot03_geo
+    400000: //RootNode
+    400002: npnf_geo
+    400004: whiteDot01_geo
+    400006: whiteDot02_geo
+    400008: whiteDot03_geo
+    2300000: //RootNode
+    2300002: npnf_geo
+    2300004: whiteDot01_geo
+    2300006: whiteDot02_geo
+    2300008: whiteDot03_geo
+    3300000: //RootNode
+    3300002: npnf_geo
+    3300004: whiteDot01_geo
+    3300006: whiteDot02_geo
+    3300008: whiteDot03_geo
+    4300000: npnf_geo
+    4300002: whiteDot01_geo
+    4300004: whiteDot02_geo
+    4300006: whiteDot03_geo
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 104
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 1
+        functionName: LoadNextScene
+        data: 
+        objectReferenceParameter: {fileID: 100008, guid: 6ecef986b116f4d4bb1df54a6b85025c,
+          type: 2}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: npnf_geo
+        weight: 1
+      - path: whiteDot01_geo
+        weight: 1
+      - path: whiteDot02_geo
+        weight: 1
+      - path: whiteDot03_geo
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
