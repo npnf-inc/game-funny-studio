@@ -34,7 +34,17 @@ public class PlayerData : MonoBehaviourSingleton<PlayerData> {
 
     public void HireNewEngineer()
     {
-        FusionManager.Instance.HireNewEngineer((bool isSucceeded) => { });
+        if (gold > FusionManager.Instance.goldToEngineer && FusionManager.Instance.goldToEngineer > 0)
+        {
+            FusionManager.Instance.HireNewEngineer((bool isSucceeded) =>
+            {
+                if(isSucceeded)
+                {
+                    EnergyManager.Instance.SynAllEnergy();
+                    CurrencyManager.Instance.ViewAllBalance();
+                }
+            });
+        }
     }
 
     void RegisterEvent(bool isRegister)

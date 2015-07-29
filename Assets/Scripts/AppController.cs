@@ -7,7 +7,7 @@ using NPNF.Core.UserModule;
 using NPNF.Core.CurrencyModule;
 using NPNF.Core.FormulaModule;
 public class AppController : MonoBehaviourSingleton<AppController> {
-
+    public bool isInited = false;
     public override void Init()
     {
        
@@ -15,6 +15,7 @@ public class AppController : MonoBehaviourSingleton<AppController> {
 
     void Start()
     {
+        isInited = false;
         NPNF.Platform.Init((NPNFError error) =>
         {
             OnPlatfomInit(error == null);
@@ -63,7 +64,26 @@ public class AppController : MonoBehaviourSingleton<AppController> {
     {
         if(User.CurrentProfile != null)
         {
-            
+            int getDataCount = 0;
+            FusionManager.Instance.GetAllFusion((bool isSucceeded) => {
+                getDataCount++;
+                if (getDataCount == 3)
+                    isInited = true;
+            });
+
+            EnergyManager.Instance.GetAllEnergy((bool isSucceeded) =>
+            {
+                getDataCount++;
+                if (getDataCount == 3)
+                    isInited = true;
+            });
+
+            CurrencyManager.Instance.GetAllCurency((bool isSucceeded) =>
+            {
+                getDataCount++;
+                if (getDataCount == 3)
+                    isInited = true;
+            });
         }
     }
 }

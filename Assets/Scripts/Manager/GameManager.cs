@@ -50,4 +50,21 @@ public class GameManager : MonoBehaviourSingleton<GameManager>
 
         return pos;
     }
+
+    bool onDataProccessing = false;
+    void Update()
+    {
+        if (onDataProccessing == false && PlayerData.Instance.commit > FusionManager.Instance.commitToReleaseProduct && FusionManager.Instance.commitToReleaseProduct > 0)
+        {
+            onDataProccessing = true;
+            int amount = PlayerData.Instance.commit / FusionManager.Instance.commitToReleaseProduct;
+            FusionManager.Instance.GenerateNewReleaseProduct(amount, (bool isSucceeded) => {
+                EnergyManager.Instance.SynAllEnergy(() => {
+                    CurrencyManager.Instance.ViewAllBalance(() => {
+                        onDataProccessing = false;
+                    });
+                });
+            });
+        }
+    }
 }

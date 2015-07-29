@@ -15,6 +15,7 @@ public class AppSceneUIManager : MonoBehaviour {
 
     public void OnGamePlayEvent()
     {
-        Application.LoadLevel("GamePlay");
+        if(AppController.Instance.isInited)
+            Application.LoadLevel("GamePlay");
     }
 }

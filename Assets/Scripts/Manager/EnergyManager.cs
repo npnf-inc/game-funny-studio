@@ -9,45 +9,42 @@ using System;
 
 public class EnergyManager : MonoBehaviourSingleton<EnergyManager> {
 
+    
     const string COMMITS_ENERGY = "commits";
     const string BANK_ACCOUNT_ENERGY = "bank account";
 
     public event Action<int> OnCommitsUpdate;
     public event Action<int> OnBankAccountUpdate;
 
-    List<string> energyUpdateEventLst;
+    bool isAddEvent = false;
+    List<string> energyUpdateEventLst = new List<string>();
 
     public override void Init()
     {
         DontDestroyOnLoad(gameObject);
     }
 
-    public void SynAllEnergy()
+    public void SynAllEnergy(Action callback = null)
     {
         if(User.CurrentProfile != null)
         {
-            if (energyUpdateEventLst != null && energyUpdateEventLst.Count > 0)
-            {
-                for(int i=0; i<energyUpdateEventLst.Count; i++)
-                {
-                    User.CurrentProfile.EnergyBank.RemoveValueUpdateHandler(energyUpdateEventLst[i], HandleOnCurrentEnergyUpdate);
-                }
-            }
-            energyUpdateEventLst = new List<string>();
-
             User.CurrentProfile.EnergyBank.SyncAll((Dictionary<string, EnergyStatus> enegyDict, NPNFError error) => {
                 if (error == null)
                 {
                     foreach (var enegy in enegyDict)
                     {
                         OnEnergyUpdate(enegy.Value.EnergyName, enegy.Value.CurrentEnergy);
-                        User.CurrentProfile.EnergyBank.AddValueUpdateHandler(enegy.Value.EnergyName, HandleOnCurrentEnergyUpdate);
-                        energyUpdateEventLst.Add(enegy.Value.EnergyName);
+                        if (isAddEvent == false)
+                        {
+                            isAddEvent = true;
+                            User.CurrentProfile.EnergyBank.AddValueUpdateHandler(enegy.Value.EnergyName, HandleOnCurrentEnergyUpdate);
+                            energyUpdateEventLst.Add(enegy.Value.EnergyName);
+                        }
                     }
                 }
                 else
                 {
-                    SynAllEnergy();
+                    SynAllEnergy(callback);
                 }
             });
         }
@@ -84,5 +81,30 @@ public class EnergyManager : MonoBehaviourSingleton<EnergyManager> {
             }
         }
         energyUpdateEventLst = new List<string>();
+    }
+
+    public void GetAllEnergy(Action<bool> callback = null, int retry = 3)
+    {
+        Energy.GetAll(false, false, (List<Energy> energyLst, NPNFError error) =>
+        {
+            if (error == null)
+            {
+                if (callback != null)
+                    callback(true);
+            }
+            else
+            {
+                retry--;
+                if (retry > 0)
+                {
+                    GetAllEnergy(callback, retry);
+                }
+                else
+                {
+                    if (callback != null)
+                        callback(false);
+                }
+            }
+        });
     }
 }

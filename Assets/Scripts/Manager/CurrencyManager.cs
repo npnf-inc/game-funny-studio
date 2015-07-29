@@ -13,9 +13,7 @@ public class CurrencyManager : MonoBehaviourSingleton<CurrencyManager> {
     const string COMMITS = "commits";
     const string RELEASES = "releases";
 
-    public event Action<int> OnBankAccountUpdate;
     public event Action<int> OnEngineersUpdate;
-    public event Action<int> OnCommitsUpdate;
     public event Action<int> OnReleasesUpdate;
 
     public override void Init()
@@ -59,40 +57,6 @@ public class CurrencyManager : MonoBehaviourSingleton<CurrencyManager> {
 
     }
 
-    public void UpdateCommits(int amount, Action<bool> callback = null, int retry = 3)
-    {
-        if (amount > 0)
-        {
-            DepositCurrency(COMMITS, amount, (BankReceipt receipt) =>
-            {
-                if (callback != null)
-                {
-                    callback(receipt != null);
-                }
-
-                if (OnCommitsUpdate != null)
-                {
-                    OnCommitsUpdate(receipt.Balance);
-                }
-            }, retry);
-        }
-        else if (amount < 0)
-        {
-            ConsumeCurrency(COMMITS, -amount, (BankReceipt receipt) =>
-            {
-                if (callback != null)
-                {
-                    callback(receipt != null);
-                }
-
-                if (OnCommitsUpdate != null)
-                {
-                    OnCommitsUpdate(receipt.Balance);
-                }
-            }, retry);
-        }
-    }
-
     public void UpdateReleasesProduct(int amount, Action<bool> callback = null, int retry = 3)
     {
         if (amount > 0)
@@ -122,40 +86,6 @@ public class CurrencyManager : MonoBehaviourSingleton<CurrencyManager> {
                 if (OnReleasesUpdate != null)
                 {
                     OnReleasesUpdate(receipt.Balance);
-                }
-            }, retry);
-        }
-    }
-
-    public void UpdateGold(int amount, Action<bool> callback = null, int retry = 3)
-    {
-        if (amount > 0)
-        {
-            DepositCurrency(BANK_ACCOUNT, amount, (BankReceipt receipt) =>
-            {
-                if (callback != null)
-                {
-                    callback(receipt != null);
-                }
-
-                if (OnBankAccountUpdate != null)
-                {
-                    OnBankAccountUpdate(receipt.Balance);
-                }
-            }, retry);
-        }
-        else if (amount < 0)
-        {
-            ConsumeCurrency(BANK_ACCOUNT, -amount, (BankReceipt receipt) =>
-            {
-                if (callback != null)
-                {
-                    callback(receipt != null);
-                }
-
-                if (OnBankAccountUpdate != null)
-                {
-                    OnBankAccountUpdate(receipt.Balance);
                 }
             }, retry);
         }
@@ -213,26 +143,15 @@ public class CurrencyManager : MonoBehaviourSingleton<CurrencyManager> {
         });
     }
 
-    public void ViewAllBalance()
+    public void ViewAllBalance(Action callback = null)
     {
         User.CurrentProfile.CurrencyBank.GetAllBalances(false, (Dictionary<string, BankReceipt> receipts, NPNFError error) => { 
             if(error == null)
             {
-                if (receipts.ContainsKey(BANK_ACCOUNT) && OnBankAccountUpdate != null)
-                {
-                    OnBankAccountUpdate(receipts[BANK_ACCOUNT].Balance);
-                }
-
                 if (receipts.ContainsKey(ENGINEERS) && OnEngineersUpdate != null)
                 {
                     OnEngineersUpdate(receipts[ENGINEERS].Balance);
                 }
-
-                if (receipts.ContainsKey(COMMITS) && OnCommitsUpdate != null)
-                {
-                    OnCommitsUpdate(receipts[COMMITS].Balance);
-                }
-
                 if (receipts.ContainsKey(RELEASES) && OnReleasesUpdate != null)
                 {
                     OnReleasesUpdate(receipts[RELEASES].Balance);
@@ -240,7 +159,31 @@ public class CurrencyManager : MonoBehaviourSingleton<CurrencyManager> {
             }
             else
             {
-                ViewAllBalance();
+                ViewAllBalance(callback);
+            }
+        });
+    }
+
+    public void GetAllCurency(Action<bool> callback = null, int retry = 3)
+    {
+        Currency.GetAll(false, false, (List<Currency> currencyLst, NPNFError error) => { 
+            if(error == null)
+            {
+                if (callback != null)
+                    callback(true);
+            }
+            else
+            {
+                retry--;
+                if(retry > 0)
+                {
+                    GetAllCurency(callback, retry);
+                }
+                else
+                {
+                    if (callback != null)
+                        callback(false);
+                }
             }
         });
     }
