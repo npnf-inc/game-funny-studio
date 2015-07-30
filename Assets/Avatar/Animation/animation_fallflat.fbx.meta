@@ -1,0 +1,1036 @@
+fileFormatVersion: 2
+guid: 26f416c47eab546f08b49e686704e4c6
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: avatar_body_base_male_mesh
+    100004: avatar_eyes_base_neutral_mesh
+    100006: avatar_hair_base_male_mesh
+    100008: avatar_hairhat_base_male_mesh
+    100010: avatar_head_base_male_mesh
+    100012: avatar_head_base_male_mesh 1
+    100014: avatar_nose_base_neutral_mesh
+    100016: chest_bone
+    100018: clavical_bone_left
+    100020: clavical_bone_right
+    100022: cuptop_right
+    100024: cuptopleft
+    100026: elbow_bone_left
+    100028: elbow_bone_right
+    100030: eyes_bone
+    100032: facialhair_bone
+    100034: finger1_bone_left
+    100036: finger1_bone_right
+    100038: foot_bone_left
+    100040: foot_bone_right
+    100042: hand_bone_left
+    100044: hand_bone_right
+    100046: handobj_bone_left
+    100048: handobj_bone_right
+    100050: hat_bone
+    100052: Head
+    100054: head_bone
+    100056: Hips
+    100058: ikHandle1
+    100060: ikHandle2
+    100062: knee_bone_left
+    100064: knee_bone_right
+    100066: LeftArm
+    100068: LeftFoot
+    100070: LeftForeArm
+    100072: LeftHand
+    100074: LeftHandIndex1
+    100076: LeftHandIndex2
+    100078: LeftHandIndex3
+    100080: LeftHandMiddle1
+    100082: LeftHandMiddle2
+    100084: LeftHandMiddle3
+    100086: LeftHandPinky1
+    100088: LeftHandPinky2
+    100090: LeftHandPinky3
+    100092: LeftHandRing1
+    100094: LeftHandRing2
+    100096: LeftHandRing3
+    100098: LeftHandThumb1
+    100100: LeftHandThumb2
+    100102: LeftHandThumb3
+    100104: LeftLeg
+    100106: LeftShoulder
+    100108: LeftToeBase
+    100110: LeftUpLeg
+    100112: Neck
+    100114: Neck1
+    100116: neck_bone
+    100118: nurbsCircle1
+    100120: nurbsCircle2
+    100122: pelvis_bone
+    100124: RightArm
+    100126: RightFoot
+    100128: RightForeArm
+    100130: RightHand
+    100132: RightHandIndex1
+    100134: RightHandIndex2
+    100136: RightHandIndex3
+    100138: RightHandMiddle1
+    100140: RightHandMiddle2
+    100142: RightHandMiddle3
+    100144: RightHandPinky1
+    100146: RightHandPinky2
+    100148: RightHandPinky3
+    100150: RightHandRing1
+    100152: RightHandRing2
+    100154: RightHandRing3
+    100156: RightHandThumb1
+    100158: RightHandThumb2
+    100160: RightHandThumb3
+    100162: RightLeg
+    100164: RightShoulder
+    100166: RightToeBase
+    100168: RightUpLeg
+    100170: should_bone_left
+    100172: should_bone_right
+    100174: Spine
+    100176: Spine1
+    100178: Spine2
+    100180: thigh_bone_left
+    100182: thigh_bone_right
+    100184: thumb1_bone_left
+    100186: thumb1_bone_right
+    100188: waist_bone
+    400000: //RootNode
+    400002: avatar_body_base_male_mesh
+    400004: avatar_eyes_base_neutral_mesh
+    400006: avatar_hair_base_male_mesh
+    400008: avatar_hairhat_base_male_mesh
+    400010: avatar_head_base_male_mesh
+    400012: avatar_head_base_male_mesh 1
+    400014: avatar_nose_base_neutral_mesh
+    400016: chest_bone
+    400018: clavical_bone_left
+    400020: clavical_bone_right
+    400022: cuptop_right
+    400024: cuptopleft
+    400026: elbow_bone_left
+    400028: elbow_bone_right
+    400030: eyes_bone
+    400032: facialhair_bone
+    400034: finger1_bone_left
+    400036: finger1_bone_right
+    400038: foot_bone_left
+    400040: foot_bone_right
+    400042: hand_bone_left
+    400044: hand_bone_right
+    400046: handobj_bone_left
+    400048: handobj_bone_right
+    400050: hat_bone
+    400052: Head
+    400054: head_bone
+    400056: Hips
+    400058: ikHandle1
+    400060: ikHandle2
+    400062: knee_bone_left
+    400064: knee_bone_right
+    400066: LeftArm
+    400068: LeftFoot
+    400070: LeftForeArm
+    400072: LeftHand
+    400074: LeftHandIndex1
+    400076: LeftHandIndex2
+    400078: LeftHandIndex3
+    400080: LeftHandMiddle1
+    400082: LeftHandMiddle2
+    400084: LeftHandMiddle3
+    400086: LeftHandPinky1
+    400088: LeftHandPinky2
+    400090: LeftHandPinky3
+    400092: LeftHandRing1
+    400094: LeftHandRing2
+    400096: LeftHandRing3
+    400098: LeftHandThumb1
+    400100: LeftHandThumb2
+    400102: LeftHandThumb3
+    400104: LeftLeg
+    400106: LeftShoulder
+    400108: LeftToeBase
+    400110: LeftUpLeg
+    400112: Neck
+    400114: Neck1
+    400116: neck_bone
+    400118: nurbsCircle1
+    400120: nurbsCircle2
+    400122: pelvis_bone
+    400124: RightArm
+    400126: RightFoot
+    400128: RightForeArm
+    400130: RightHand
+    400132: RightHandIndex1
+    400134: RightHandIndex2
+    400136: RightHandIndex3
+    400138: RightHandMiddle1
+    400140: RightHandMiddle2
+    400142: RightHandMiddle3
+    400144: RightHandPinky1
+    400146: RightHandPinky2
+    400148: RightHandPinky3
+    400150: RightHandRing1
+    400152: RightHandRing2
+    400154: RightHandRing3
+    400156: RightHandThumb1
+    400158: RightHandThumb2
+    400160: RightHandThumb3
+    400162: RightLeg
+    400164: RightShoulder
+    400166: RightToeBase
+    400168: RightUpLeg
+    400170: should_bone_left
+    400172: should_bone_right
+    400174: Spine
+    400176: Spine1
+    400178: Spine2
+    400180: thigh_bone_left
+    400182: thigh_bone_right
+    400184: thumb1_bone_left
+    400186: thumb1_bone_right
+    400188: waist_bone
+    2300000: avatar_eyes_base_neutral_mesh
+    2300002: avatar_hair_base_male_mesh
+    2300004: avatar_hairhat_base_male_mesh
+    2300006: avatar_head_base_male_mesh
+    2300008: avatar_head_base_male_mesh 1
+    2300010: avatar_nose_base_neutral_mesh
+    2300012: cuptop_right
+    2300014: cuptopleft
+    3300000: avatar_eyes_base_neutral_mesh
+    3300002: avatar_hair_base_male_mesh
+    3300004: avatar_hairhat_base_male_mesh
+    3300006: avatar_head_base_male_mesh
+    3300008: avatar_head_base_male_mesh 1
+    3300010: avatar_nose_base_neutral_mesh
+    3300012: cuptop_right
+    3300014: cuptopleft
+    4300000: avatar_body_base_male_mesh
+    4300002: avatar_eyes_base_neutral_mesh
+    4300004: avatar_hairhat_base_male_mesh
+    4300006: avatar_head_base_male_mesh
+    4300008: avatar_hair_base_male_mesh
+    4300010: avatar_head_base_male_mesh
+    4300012: avatar_nose_base_neutral_mesh
+    4300014: cuptopleft
+    4300016: cuptop_right
+    7400000: animation_fallflat2
+    7400002: animation_layflat2
+    7400004: treepuncher_fall
+    9500000: //RootNode
+    13700000: avatar_body_base_male_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: animation_fallflat2
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: -80
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: avatar_body_base_male_mesh
+        weight: 1
+      - path: Hips
+        weight: 0
+      - path: Hips/LeftUpLeg
+        weight: 0
+      - path: Hips/LeftUpLeg/LeftLeg
+        weight: 0
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 0
+      - path: Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 0
+      - path: Hips/RightUpLeg
+        weight: 0
+      - path: Hips/RightUpLeg/RightLeg
+        weight: 0
+      - path: Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 0
+      - path: Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 0
+      - path: Hips/Spine
+        weight: 0
+      - path: Hips/Spine/Spine1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1/LeftHandIndex2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1/LeftHandMiddle2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1/LeftHandPinky2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1/LeftHandRing2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1/LeftHandThumb2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/Neck
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/Neck/Neck1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/Neck/Neck1/Head
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1/RightHandIndex2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1/RightHandMiddle2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1/RightHandPinky2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1/RightHandRing2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1/RightHandThumb2
+        weight: 0
+      - path: Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 0
+      - path: nurbsCircle1
+        weight: 0
+      - path: nurbsCircle1/ikHandle2
+        weight: 0
+      - path: nurbsCircle2
+        weight: 0
+      - path: nurbsCircle2/ikHandle1
+        weight: 0
+      - path: pelvis_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/cuptopleft
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/finger1_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/thumb1_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/cuptop_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/finger1_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/thumb1_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hair_base_male_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hair_base_male_mesh/avatar_head_base_male_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hairhat_base_male_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hairhat_base_male_mesh/avatar_head_base_male_mesh
+          1
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_nose_base_neutral_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone/avatar_eyes_base_neutral_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/facialhair_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/hat_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/handobj_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/handobj_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left/foot_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right/foot_bone_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: animation_layflat2
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: -80
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: avatar_body_base_male_mesh
+        weight: 0
+      - path: cuptop_right
+        weight: 0
+      - path: cuptopleft
+        weight: 0
+      - path: pelvis_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/finger1_bone_left
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/thumb1_bone_left
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/finger1_bone_right
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/thumb1_bone_right
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hair_base_male_mesh
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hair_base_male_mesh/avatar_head_base_male_mesh
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hairhat_base_male_mesh
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hairhat_base_male_mesh/avatar_head_base_male_mesh
+          1
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_nose_base_neutral_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone/avatar_eyes_base_neutral_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/facialhair_bone
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/hat_bone
+        weight: 0
+      - path: pelvis_bone/waist_bone/handobj_bone_left
+        weight: 0
+      - path: pelvis_bone/waist_bone/handobj_bone_right
+        weight: 0
+      - path: pelvis_bone/waist_bone/thigh_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left/foot_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right/foot_bone_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: treepuncher_fall
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 1
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: avatar_body_base_male_mesh
+        weight: 0
+      - path: cuptop_right
+        weight: 0
+      - path: cuptopleft
+        weight: 0
+      - path: pelvis_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/finger1_bone_left
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/thumb1_bone_left
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/finger1_bone_right
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/thumb1_bone_right
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hair_base_male_mesh
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hair_base_male_mesh/avatar_head_base_male_mesh
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hairhat_base_male_mesh
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hairhat_base_male_mesh/avatar_head_base_male_mesh
+          1
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_nose_base_neutral_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone/avatar_eyes_base_neutral_mesh
+        weight: 1
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/facialhair_bone
+        weight: 0
+      - path: pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/hat_bone
+        weight: 0
+      - path: pelvis_bone/waist_bone/handobj_bone_left
+        weight: 0
+      - path: pelvis_bone/waist_bone/handobj_bone_right
+        weight: 0
+      - path: pelvis_bone/waist_bone/thigh_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left/foot_bone_left
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right
+        weight: 1
+      - path: pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right/foot_bone_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: pelvis_bone
+      humanName: Hips
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0611882247, y: 0, z: .0305941124}
+        length: .0764852986
+        modified: 1
+    - boneName: thigh_bone_left
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .0132555319, y: 0, z: .00662776595}
+        length: .0165694188
+        modified: 1
+    - boneName: thigh_bone_right
+      humanName: RightUpperLeg
+      limit:
+        min: {x: -60.0000038, y: -60.0000038, z: -90}
+        max: {x: 60.0000038, y: 60.0000038, z: 50}
+        value: {x: .0131710609, y: 0, z: .00658553047}
+        length: .0164638311
+        modified: 1
+    - boneName: knee_bone_left
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .0179041233, y: 0, z: .00895206165}
+        length: .022380162
+        modified: 1
+    - boneName: knee_bone_right
+      humanName: RightLowerLeg
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .0179574955, y: 0, z: .00897874776}
+        length: .0224468783
+        modified: 1
+    - boneName: foot_bone_left
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .00120242347, y: 0, z: .000601211737}
+        length: .00150302984
+        modified: 1
+    - boneName: foot_bone_right
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: -30.0000019, z: -50}
+        max: {x: 0, y: 30.0000019, z: 50}
+        value: {x: .00129402091, y: 0, z: .000647010456}
+        length: .00161752664
+        modified: 1
+    - boneName: chest_bone
+      humanName: Spine
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0193143487, y: 0, z: .00965717435}
+        length: .0241429452
+        modified: 1
+    - boneName: neck_bone
+      humanName: Neck
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0747395679, y: 0, z: .037369784}
+        length: .0934244916
+        modified: 1
+    - boneName: head_bone
+      humanName: Head
+      limit:
+        min: {x: -40, y: -40, z: -40}
+        max: {x: 40, y: 40, z: 40}
+        value: {x: .0747395679, y: 0, z: .037369784}
+        length: .0934244916
+        modified: 1
+    - boneName: clavical_bone_left
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .0170417801, y: 0, z: .00852089003}
+        length: .0213022344
+        modified: 1
+    - boneName: clavical_bone_right
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: -15.000001, z: -15.000001}
+        max: {x: 0, y: 15.000001, z: 30.0000019}
+        value: {x: .0170418303, y: 0, z: .00852091517}
+        length: .0213022977
+        modified: 1
+    - boneName: should_bone_left
+      humanName: LeftUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .0381062143, y: 0, z: .0190531071}
+        length: .0476327837
+        modified: 1
+    - boneName: should_bone_right
+      humanName: RightUpperArm
+      limit:
+        min: {x: -90, y: -100, z: -60.0000038}
+        max: {x: 90, y: 100, z: 100}
+        value: {x: .0381062366, y: 0, z: .0190531183}
+        length: .0476328135
+        modified: 1
+    - boneName: elbow_bone_left
+      humanName: LeftLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .0420577563, y: 0, z: .0210288782}
+        length: .0525722131
+        modified: 1
+    - boneName: elbow_bone_right
+      humanName: RightLowerArm
+      limit:
+        min: {x: -90, y: 0, z: -80}
+        max: {x: 90, y: 0, z: 80}
+        value: {x: .042057801, y: 0, z: .0210289005}
+        length: .052572269
+        modified: 1
+    - boneName: hand_bone_left
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .0210288782, y: 0, z: .0105144391}
+        length: .0262861066
+        modified: 1
+    - boneName: hand_bone_right
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: .0210289005, y: 0, z: .0105144503}
+        length: .0262861345
+        modified: 1
+    - boneName: avatar_eyes_base_neutral_mesh
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: -20, z: -10}
+        max: {x: 0, y: 20, z: 15.000001}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        length: .100000001
+        modified: 1
+    - boneName: avatar_nose_base_neutral_mesh
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: -10, z: -10}
+        max: {x: 0, y: 10, z: 10}
+        value: {x: .0799999759, y: 0, z: .0399999879}
+        length: .100000001
+        modified: 1
+    skeleton:
+    - name: animation_fallflat
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pelvis_bone
+      position: {x: -.000260357949, y: .04587017, z: -.00380215584}
+      rotation: {x: .447238684, y: -.547702014, z: -.447238684, w: .547702014}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: waist_bone
+      position: {x: -.0209130403, y: 6.60669075e-10, z: -4.64905862e-18}
+      rotation: {x: 0, y: -0, z: -.0706820115, w: .99749887}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_bone
+      position: {x: -.0557582453, y: .0010743835, z: -1.06858963e-17}
+      rotation: {x: 0, y: -0, z: -.0059853741, w: .999982059}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavical_bone_left
+      position: {x: .0001312815, y: .00263207452, z: .0340058468}
+      rotation: {x: -.487904936, y: .511809289, z: .487904936, w: .511809289}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: should_bone_left
+      position: {x: -.0213022362, y: 4.97817973e-06, z: -4.440892e-18}
+      rotation: {x: -.000373409042, y: .00171623775, z: .0327552967, w: .99946183}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_bone_left
+      position: {x: -.0476327948, y: 2.16278355e-08, z: -1.54971232e-07}
+      rotation: {x: .999975026, y: .0070592314, z: 1.71334307e-06, w: -1.20951871e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand_bone_left
+      position: {x: -.0525722355, y: -2.47431373e-08, z: -9.12859832e-09}
+      rotation: {x: .704729915, y: .709475517, z: -2.90583922e-19, w: -8.65951428e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger1_bone_left
+      position: {x: .00607198896, y: -.00880923402, z: -.00702772615}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb1_bone_left
+      position: {x: .0097730197, y: -.000327436021, z: .00152687298}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavical_bone_right
+      position: {x: .000131291032, y: .00263207429, z: -.0340057984}
+      rotation: {x: -.487904936, y: .511809289, z: .487904936, w: .511809289}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: should_bone_right
+      position: {x: .0213022996, y: 4.9972532e-06, z: 2.220446e-18}
+      rotation: {x: .00171585428, y: -.000360660313, z: .999191761, w: .0401573516}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_bone_right
+      position: {x: -.0476275869, y: -.000705635699, z: -1.35607692e-07}
+      rotation: {x: .999975026, y: .0070592314, z: 1.52003531e-06, w: -1.07305498e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand_bone_right
+      position: {x: -.0525675416, y: -.000705599086, z: -1.01266071e-08}
+      rotation: {x: .704729915, y: .709475517, z: -2.43076592e-16, w: 1.57825796e-16}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger1_bone_right
+      position: {x: -.00607199315, y: -.00880920328, z: -.00702772895}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb1_bone_right
+      position: {x: -.00977299362, y: -.000327401154, z: .00152686983}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck_bone
+      position: {x: -.0241429545, y: 2.14177578e-10, z: -4.75314234e-18}
+      rotation: {x: .999022365, y: -.0442062952, z: -2.70685488e-18, w: 6.11724746e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head_bone
+      position: {x: -.093424499, y: 7.06921022e-10, z: 1.64451778e-17}
+      rotation: {x: .489740521, y: -.510053098, z: .489740521, w: .510053098}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_hair_base_male_mesh
+      position: {x: 9.45170582e-17, y: -.218006954, z: -5.35259414e-06}
+      rotation: {x: -1.35898229e-14, y: -2.08955524e-16, z: 1.34980219e-16, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_head_base_male_mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 5.10232029e-33, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_hairhat_base_male_mesh
+      position: {x: 9.45170582e-17, y: -.218006954, z: -5.35259414e-06}
+      rotation: {x: -1.35898229e-14, y: -2.08955524e-16, z: 1.34980219e-16, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_head_base_male_mesh 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 5.10232029e-33, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_nose_base_neutral_mesh
+      position: {x: 9.45170582e-17, y: -.0154916393, z: .0853932649}
+      rotation: {x: -1.35690062e-14, y: -2.08955524e-16, z: 1.34980219e-16, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyes_bone
+      position: {x: -2.89682422e-17, y: -.00563701428, z: .114891671}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_eyes_base_neutral_mesh
+      position: {x: 1.28251641e-16, y: -.00732833426, z: -.0312804729}
+      rotation: {x: -1.35690062e-14, y: -2.08955524e-16, z: 1.34980219e-16, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: facialhair_bone
+      position: {x: -1.75207177e-17, y: -.0425222144, z: .114891671}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hat_bone
+      position: {x: -2.6647817e-17, y: .119217344, z: .0217519365}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: handobj_bone_left
+      position: {x: .308463573, y: -.0191975441, z: .033528626}
+      rotation: {x: .553311527, y: .700573266, z: -.450565845, w: .00581540447}
+      scale: {x: .996379256, y: .996379256, z: .996379256}
+      transformModified: 1
+    - name: handobj_bone_right
+      position: {x: .317661613, y: -.0658629611, z: .0182739198}
+      rotation: {x: -.37668851, y: .0993919969, z: .5561077, w: .734146476}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh_bone_left
+      position: {x: .0268154498, y: .00331444433, z: .0206398014}
+      rotation: {x: .934712946, y: .355351895, z: -.00586676551, w: .00148344028}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_bone_left
+      position: {x: .0141841499, y: .00856402144, z: -.000114680144}
+      rotation: {x: .846654892, y: .532134175, z: -.00290755206, w: .000380366808}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_bone_left
+      position: {x: .0200505666, y: .00994215533, z: 2.55902122e-09}
+      rotation: {x: .421060294, y: .907031655, z: -.00111564971, w: -.000674158218}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh_bone_right
+      position: {x: .0267955177, y: .00298160245, z: -.0206397809}
+      rotation: {x: -.334808707, y: .942141235, z: .0138543621, w: -.00900187623}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: knee_bone_right
+      position: {x: -.014549234, y: -.00770383235, z: -.000169215666}
+      rotation: {x: .850913942, y: .525176108, z: .00977634732, w: -.00631516101}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_bone_right
+      position: {x: -.0197319072, y: -.0107010957, z: 3.00069714e-05}
+      rotation: {x: .431978136, y: .901881635, z: .00185341749, w: .000969059765}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

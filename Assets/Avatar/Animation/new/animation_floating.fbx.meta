@@ -1,0 +1,1097 @@
+fileFormatVersion: 2
+guid: d766808ced0c44fe3b762aa296861647
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: vincent:Head
+    100004: vincent:HeadTop_End
+    100006: vincent:Hips
+    100008: vincent:LeftArm
+    100010: vincent:LeftFoot
+    100012: vincent:LeftFootToeBase_End
+    100014: vincent:LeftForeArm
+    100016: vincent:LeftHand
+    100018: vincent:LeftHandIndex1
+    100020: vincent:LeftHandIndex2
+    100022: vincent:LeftHandIndex3
+    100024: vincent:LeftHandIndex4
+    100026: vincent:LeftHandMiddle1
+    100028: vincent:LeftHandMiddle2
+    100030: vincent:LeftHandMiddle3
+    100032: vincent:LeftHandMiddle4
+    100034: vincent:LeftHandPinky1
+    100036: vincent:LeftHandPinky2
+    100038: vincent:LeftHandPinky3
+    100040: vincent:LeftHandPinky4
+    100042: vincent:LeftHandRing1
+    100044: vincent:LeftHandRing2
+    100046: vincent:LeftHandRing3
+    100048: vincent:LeftHandRing4
+    100050: vincent:LeftHandThumb1
+    100052: vincent:LeftHandThumb2
+    100054: vincent:LeftHandThumb3
+    100056: vincent:LeftHandThumb4
+    100058: vincent:LeftLeg
+    100060: vincent:LeftShoulder
+    100062: vincent:LeftToeBase
+    100064: vincent:LeftUpLeg
+    100066: vincent:Neck
+    100068: vincent:Neck1
+    100070: vincent:RightArm
+    100072: vincent:RightFoot
+    100074: vincent:RightFootToeBase_End
+    100076: vincent:RightForeArm
+    100078: vincent:RightHand
+    100080: vincent:RightHandIndex1
+    100082: vincent:RightHandIndex2
+    100084: vincent:RightHandIndex3
+    100086: vincent:RightHandIndex4
+    100088: vincent:RightHandMiddle1
+    100090: vincent:RightHandMiddle2
+    100092: vincent:RightHandMiddle3
+    100094: vincent:RightHandMiddle4
+    100096: vincent:RightHandPinky1
+    100098: vincent:RightHandPinky2
+    100100: vincent:RightHandPinky3
+    100102: vincent:RightHandPinky4
+    100104: vincent:RightHandRing1
+    100106: vincent:RightHandRing2
+    100108: vincent:RightHandRing3
+    100110: vincent:RightHandRing4
+    100112: vincent:RightHandThumb1
+    100114: vincent:RightHandThumb2
+    100116: vincent:RightHandThumb3
+    100118: vincent:RightHandThumb4
+    100120: vincent:RightLeg
+    100122: vincent:RightShoulder
+    100124: vincent:RightToeBase
+    100126: vincent:RightUpLeg
+    100128: vincent:Spine
+    100130: vincent:Spine1
+    100132: vincent:Spine2
+    400000: //RootNode
+    400002: vincent:Head
+    400004: vincent:HeadTop_End
+    400006: vincent:Hips
+    400008: vincent:LeftArm
+    400010: vincent:LeftFoot
+    400012: vincent:LeftFootToeBase_End
+    400014: vincent:LeftForeArm
+    400016: vincent:LeftHand
+    400018: vincent:LeftHandIndex1
+    400020: vincent:LeftHandIndex2
+    400022: vincent:LeftHandIndex3
+    400024: vincent:LeftHandIndex4
+    400026: vincent:LeftHandMiddle1
+    400028: vincent:LeftHandMiddle2
+    400030: vincent:LeftHandMiddle3
+    400032: vincent:LeftHandMiddle4
+    400034: vincent:LeftHandPinky1
+    400036: vincent:LeftHandPinky2
+    400038: vincent:LeftHandPinky3
+    400040: vincent:LeftHandPinky4
+    400042: vincent:LeftHandRing1
+    400044: vincent:LeftHandRing2
+    400046: vincent:LeftHandRing3
+    400048: vincent:LeftHandRing4
+    400050: vincent:LeftHandThumb1
+    400052: vincent:LeftHandThumb2
+    400054: vincent:LeftHandThumb3
+    400056: vincent:LeftHandThumb4
+    400058: vincent:LeftLeg
+    400060: vincent:LeftShoulder
+    400062: vincent:LeftToeBase
+    400064: vincent:LeftUpLeg
+    400066: vincent:Neck
+    400068: vincent:Neck1
+    400070: vincent:RightArm
+    400072: vincent:RightFoot
+    400074: vincent:RightFootToeBase_End
+    400076: vincent:RightForeArm
+    400078: vincent:RightHand
+    400080: vincent:RightHandIndex1
+    400082: vincent:RightHandIndex2
+    400084: vincent:RightHandIndex3
+    400086: vincent:RightHandIndex4
+    400088: vincent:RightHandMiddle1
+    400090: vincent:RightHandMiddle2
+    400092: vincent:RightHandMiddle3
+    400094: vincent:RightHandMiddle4
+    400096: vincent:RightHandPinky1
+    400098: vincent:RightHandPinky2
+    400100: vincent:RightHandPinky3
+    400102: vincent:RightHandPinky4
+    400104: vincent:RightHandRing1
+    400106: vincent:RightHandRing2
+    400108: vincent:RightHandRing3
+    400110: vincent:RightHandRing4
+    400112: vincent:RightHandThumb1
+    400114: vincent:RightHandThumb2
+    400116: vincent:RightHandThumb3
+    400118: vincent:RightHandThumb4
+    400120: vincent:RightLeg
+    400122: vincent:RightShoulder
+    400124: vincent:RightToeBase
+    400126: vincent:RightUpLeg
+    400128: vincent:Spine
+    400130: vincent:Spine1
+    400132: vincent:Spine2
+    7400000: animation_floating
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: animation_floating
+      takeName: mixamo.com
+      firstFrame: 0
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: vincent:Hips
+        weight: 1
+      - path: vincent:Hips/vincent:LeftUpLeg
+        weight: 1
+      - path: vincent:Hips/vincent:LeftUpLeg/vincent:LeftLeg
+        weight: 1
+      - path: vincent:Hips/vincent:LeftUpLeg/vincent:LeftLeg/vincent:LeftFoot
+        weight: 1
+      - path: vincent:Hips/vincent:LeftUpLeg/vincent:LeftLeg/vincent:LeftFoot/vincent:LeftToeBase
+        weight: 1
+      - path: vincent:Hips/vincent:LeftUpLeg/vincent:LeftLeg/vincent:LeftFoot/vincent:LeftToeBase/vincent:LeftFootToeBase_End
+        weight: 0
+      - path: vincent:Hips/vincent:RightUpLeg
+        weight: 1
+      - path: vincent:Hips/vincent:RightUpLeg/vincent:RightLeg
+        weight: 1
+      - path: vincent:Hips/vincent:RightUpLeg/vincent:RightLeg/vincent:RightFoot
+        weight: 1
+      - path: vincent:Hips/vincent:RightUpLeg/vincent:RightLeg/vincent:RightFoot/vincent:RightToeBase
+        weight: 1
+      - path: vincent:Hips/vincent:RightUpLeg/vincent:RightLeg/vincent:RightFoot/vincent:RightToeBase/vincent:RightFootToeBase_End
+        weight: 0
+      - path: vincent:Hips/vincent:Spine
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandIndex1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandIndex1/vincent:LeftHandIndex2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandIndex1/vincent:LeftHandIndex2/vincent:LeftHandIndex3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandIndex1/vincent:LeftHandIndex2/vincent:LeftHandIndex3/vincent:LeftHandIndex4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandMiddle1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandMiddle1/vincent:LeftHandMiddle2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandMiddle1/vincent:LeftHandMiddle2/vincent:LeftHandMiddle3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandMiddle1/vincent:LeftHandMiddle2/vincent:LeftHandMiddle3/vincent:LeftHandMiddle4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandPinky1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandPinky1/vincent:LeftHandPinky2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandPinky1/vincent:LeftHandPinky2/vincent:LeftHandPinky3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandPinky1/vincent:LeftHandPinky2/vincent:LeftHandPinky3/vincent:LeftHandPinky4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandRing1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandRing1/vincent:LeftHandRing2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandRing1/vincent:LeftHandRing2/vincent:LeftHandRing3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandRing1/vincent:LeftHandRing2/vincent:LeftHandRing3/vincent:LeftHandRing4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandThumb1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandThumb1/vincent:LeftHandThumb2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandThumb1/vincent:LeftHandThumb2/vincent:LeftHandThumb3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:LeftShoulder/vincent:LeftArm/vincent:LeftForeArm/vincent:LeftHand/vincent:LeftHandThumb1/vincent:LeftHandThumb2/vincent:LeftHandThumb3/vincent:LeftHandThumb4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:Neck
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:Neck/vincent:Neck1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:Neck/vincent:Neck1/vincent:Head
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:Neck/vincent:Neck1/vincent:Head/vincent:HeadTop_End
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandIndex1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandIndex1/vincent:RightHandIndex2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandIndex1/vincent:RightHandIndex2/vincent:RightHandIndex3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandIndex1/vincent:RightHandIndex2/vincent:RightHandIndex3/vincent:RightHandIndex4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandMiddle1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandMiddle1/vincent:RightHandMiddle2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandMiddle1/vincent:RightHandMiddle2/vincent:RightHandMiddle3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandMiddle1/vincent:RightHandMiddle2/vincent:RightHandMiddle3/vincent:RightHandMiddle4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandPinky1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandPinky1/vincent:RightHandPinky2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandPinky1/vincent:RightHandPinky2/vincent:RightHandPinky3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandPinky1/vincent:RightHandPinky2/vincent:RightHandPinky3/vincent:RightHandPinky4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandRing1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandRing1/vincent:RightHandRing2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandRing1/vincent:RightHandRing2/vincent:RightHandRing3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandRing1/vincent:RightHandRing2/vincent:RightHandRing3/vincent:RightHandRing4
+        weight: 0
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandThumb1
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandThumb1/vincent:RightHandThumb2
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandThumb1/vincent:RightHandThumb2/vincent:RightHandThumb3
+        weight: 1
+      - path: vincent:Hips/vincent:Spine/vincent:Spine1/vincent:Spine2/vincent:RightShoulder/vincent:RightArm/vincent:RightForeArm/vincent:RightHand/vincent:RightHandThumb1/vincent:RightHandThumb2/vincent:RightHandThumb3/vincent:RightHandThumb4
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: vincent:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: vincent:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: animation_floating(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Hips
+      position: {x: -.00851750933, y: .964389145, z: -.0174592193}
+      rotation: {x: -.125076145, y: .0605625287, z: -.000815249106, w: .990296662}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftUpLeg
+      position: {x: -.0963379964, y: -.0327329971, z: 0}
+      rotation: {x: -.0219584722, y: .0247683525, z: -.0765559003, w: .996515691}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftLeg
+      position: {x: -0, y: -.417299986, z: -.0173000004}
+      rotation: {x: .298698723, y: -.100676179, z: .0117459781, w: .948949635}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftFoot
+      position: {x: -.000125999999, y: -.391939998, z: -.00847699959}
+      rotation: {x: -.0648534298, y: .84040761, z: -.483744711, w: .235584706}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftToeBase
+      position: {x: .00183299999, y: -.121930994, z: .0828230008}
+      rotation: {x: -.0119985864, y: 6.31600816e-09, z: -3.63428398e-08, w: .999928057}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftFootToeBase_End
+      position: {x: -0, y: 0, z: .119999997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightUpLeg
+      position: {x: .0963379964, y: -.0327329971, z: 0}
+      rotation: {x: -.0129015436, y: .0345247313, z: .0241603944, w: .999028444}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightLeg
+      position: {x: -0, y: -.417299986, z: -.0173000004}
+      rotation: {x: .322889894, y: .052285634, z: .0180155858, w: .94481945}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightFoot
+      position: {x: -.000125999999, y: -.391939998, z: -.00847699959}
+      rotation: {x: -.098874107, y: -.0176235624, z: -.137311578, w: .985423148}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightToeBase
+      position: {x: .00183299999, y: -.121930994, z: .0828230008}
+      rotation: {x: -.00487669883, y: 1.35472007e-08, z: -4.06347915e-08, w: .999988139}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightFootToeBase_End
+      position: {x: -3.19999999e-05, y: 0, z: .119999997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Spine
+      position: {x: -0, y: .0922629982, z: .0157709997}
+      rotation: {x: .285403281, y: .0712968782, z: .00547587359, w: .955736279}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Spine1
+      position: {x: -0, y: .162539989, z: -.00165600004}
+      rotation: {x: -.0742508918, y: .0126252882, z: -.0078241704, w: .997129023}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Spine2
+      position: {x: -0, y: .136395991, z: -.0129229994}
+      rotation: {x: -.0739905983, y: .0125207547, z: -.0101167951, w: .997129023}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftShoulder
+      position: {x: -.0614419989, y: .10187, z: -.0379320011}
+      rotation: {x: -.00958160404, y: -.0930647776, z: -.139494896, w: .985793233}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftArm
+      position: {x: -.123190999, y: -.0111300005, z: -.0179349985}
+      rotation: {x: -.338611066, y: -.0251123719, z: .172169551, w: .924699724}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftForeArm
+      position: {x: -.276869982, y: 0, z: 0}
+      rotation: {x: -.0124843735, y: .0281742699, z: -.0213731378, w: .999296546}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHand
+      position: {x: -.278737992, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandIndex1
+      position: {x: -.103944995, y: .00614799978, z: .027054999}
+      rotation: {x: -.00175785006, y: .0142165767, z: .0412300415, w: .999046981}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandIndex2
+      position: {x: -.0554930009, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -1.38777878e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandIndex3
+      position: {x: -.0339109972, y: 0, z: 0}
+      rotation: {x: -1.11405658e-08, y: -1.00981772e-07, z: -.0408249088, w: .99916631}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandIndex4
+      position: {x: -.0275790002, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandMiddle1
+      position: {x: -.104638994, y: .00614799978, z: .00429800013}
+      rotation: {x: -9.11599273e-05, y: .0114956917, z: .0434842594, w: .998988032}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandMiddle2
+      position: {x: -.0579209998, y: 0, z: 0}
+      rotation: {x: 4.74974335e-08, y: 2.60770232e-08, z: .0413703285, w: .999143898}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandMiddle3
+      position: {x: -.0371319987, y: 0, z: 0}
+      rotation: {x: 1.92030623e-08, y: 5.3403614e-08, z: -.0223218407, w: .999750853}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandMiddle4
+      position: {x: -.0275790002, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandPinky1
+      position: {x: -.100129992, y: -.000782999967, z: -.0396709964}
+      rotation: {x: .00551844761, y: .00915363431, z: .0407583639, w: .999111891}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandPinky2
+      position: {x: -.0367630012, y: 0, z: 0}
+      rotation: {x: -4.15714041e-08, y: 1.44868366e-07, z: -7.28673058e-07, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandPinky3
+      position: {x: -.0281130001, y: 0, z: 0}
+      rotation: {x: -2.75345147e-09, y: 5.22301242e-08, z: -.0312105156, w: .999512851}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandPinky4
+      position: {x: -.0192549992, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandRing1
+      position: {x: -.103252001, y: .003211, z: -.0187550001}
+      rotation: {x: .00176204578, y: .00953265466, z: .0432745852, w: .999016225}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandRing2
+      position: {x: -.0544519983, y: 0, z: 0}
+      rotation: {x: 1.49011541e-08, y: -1.04308079e-07, z: .0414000638, w: .999142706}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandRing3
+      position: {x: -.0371319987, y: 0, z: 0}
+      rotation: {x: -1.21298411e-08, y: 3.63233319e-08, z: -.0194219034, w: .999811351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandRing4
+      position: {x: -.0275790002, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandThumb1
+      position: {x: -.0237849988, y: -.0100290002, z: .0262089986}
+      rotation: {x: .0366924964, y: -.0425478704, z: .0481096879, w: .99726063}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandThumb2
+      position: {x: -.0336240008, y: -.0100290002, z: .0283979978}
+      rotation: {x: -.0204981342, y: .0798290744, z: .006019603, w: .996579587}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandThumb3
+      position: {x: -.0450179987, y: -.0134449992, z: .021782998}
+      rotation: {x: .0380029976, y: .0109654069, z: .0868764669, w: .995433629}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:LeftHandThumb4
+      position: {x: -.0321439989, y: 0, z: .0148989996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Neck
+      position: {x: -0, y: .138774008, z: -.0435419977}
+      rotation: {x: .107908614, y: -.0263753552, z: .0368508175, w: .993127525}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Neck1
+      position: {x: -0, y: .0434000008, z: .00926900003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:Head
+      position: {x: -0, y: .0402659997, z: .00858499948}
+      rotation: {x: -.00624943804, y: -.132164747, z: .0861928985, w: .987453401}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:HeadTop_End
+      position: {x: -0, y: .178865999, z: .00123099994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightShoulder
+      position: {x: .0614020005, y: .10187, z: -.0379320011}
+      rotation: {x: .000932507741, y: .0102857491, z: .0255480539, w: .999620259}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightArm
+      position: {x: .123231001, y: -.0111300005, z: -.0179349985}
+      rotation: {x: -.346475065, y: -.0514148623, z: -.0495330095, w: .935338438}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightForeArm
+      position: {x: .276869982, y: 0, z: 0}
+      rotation: {x: -.00376868201, y: -.019824883, z: .00416181143, w: .999787748}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHand
+      position: {x: .278737992, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandIndex1
+      position: {x: .104665004, y: .00489600003, z: .0271199979}
+      rotation: {x: .00510487705, y: -.00714310119, z: -.0484392531, w: .998787582}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandIndex2
+      position: {x: .0537679978, y: 0, z: 0}
+      rotation: {x: 9.62964972e-35, y: 1.38777878e-17, z: -6.9388939e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandIndex3
+      position: {x: .0338549986, y: 0, z: 0}
+      rotation: {x: 1.48945984e-08, y: 1.07029541e-08, z: .0311030541, w: .999516189}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandIndex4
+      position: {x: .0277309977, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandMiddle1
+      position: {x: .107595995, y: .00489600003, z: .00427799998}
+      rotation: {x: .00457430724, y: .012120083, z: -.0499186553, w: .998669326}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandMiddle2
+      position: {x: .0561679974, y: 0, z: 0}
+      rotation: {x: -1.68802163e-08, y: -9.87201574e-08, z: -.0390105285, w: .999238789}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandMiddle3
+      position: {x: .0373639986, y: 0, z: 0}
+      rotation: {x: -.00787144713, y: .000200455645, z: -.0254527628, w: .999645054}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandMiddle4
+      position: {x: .0288030002, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandPinky1
+      position: {x: .0997150019, y: -.00119099999, z: -.0395400003}
+      rotation: {x: -.00898790266, y: .0453317426, z: .0683090687, w: .996593237}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandPinky2
+      position: {x: .0365279987, y: 0, z: 0}
+      rotation: {x: 3.74391618e-07, y: -1.15483988e-06, z: -.0293835178, w: .999568284}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandPinky3
+      position: {x: .0278200004, y: 0, z: 0}
+      rotation: {x: 4.19095025e-09, y: 1.27265184e-06, z: -.0384947583, w: .999258816}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandPinky4
+      position: {x: .0227669999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandRing1
+      position: {x: .104701996, y: .00387899997, z: -.0193629991}
+      rotation: {x: .000429210049, y: .0588768795, z: -.00284597697, w: .998261154}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandRing2
+      position: {x: .0540129989, y: 0, z: 0}
+      rotation: {x: 1.1973313e-07, y: 2.50525716e-07, z: -.0356594361, w: .999364078}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandRing3
+      position: {x: .0339159966, y: 0, z: 0}
+      rotation: {x: -.0131852375, y: .000522620685, z: -.0396408066, w: .999126911}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandRing4
+      position: {x: .0296649989, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandThumb1
+      position: {x: .0251780003, y: -.00936699938, z: .0251369998}
+      rotation: {x: .0717599913, y: .034656249, z: -.125685468, w: .988864362}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandThumb2
+      position: {x: .0326379985, y: -.0108699994, z: .0296689998}
+      rotation: {x: -.0251715537, y: -.0954728276, z: -.0074457489, w: .995085895}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandThumb3
+      position: {x: .0441650003, y: -.0137029998, z: .0213500001}
+      rotation: {x: .0290328003, y: -.0472450331, z: -.0910767838, w: .994298816}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: vincent:RightHandThumb4
+      position: {x: .0347619988, y: -.000520000001, z: .011709}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

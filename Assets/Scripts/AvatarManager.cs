@@ -26,6 +26,9 @@ public class AvatarManager : MonoBehaviourSingleton<AvatarManager> {
         obj.transform.localRotation = Quaternion.Euler(new Vector3(0, 180, 0));
         obj.transform.localScale = new Vector3(3, 3, 3);
         obj.name = avatarName;
+
+        obj.AddComponent<AvatarSimpleAction>();
+
         return obj;
     }
 }

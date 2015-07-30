@@ -1,0 +1,714 @@
+fileFormatVersion: 2
+guid: b240de4f784a748858ec04bd0cc1e25a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: avatar_body_base_male_mesh
+    100002: avatar_eyes_base_neutral_mesh
+    100004: avatar_facialhair_base_neutral_mesh
+    100006: avatar_hathair_base_male_mesh
+    100008: //RootNode
+    100010: character_group
+    100012: chest_bone
+    100014: clavical_bone_left
+    100016: clavical_bone_right
+    100018: elbow_bone_left
+    100020: elbow_bone_right
+    100022: eyes_bone
+    100024: facialhair_bone
+    100026: finger1_bone_left
+    100028: finger1_bone_right
+    100030: foot_bone_left
+    100032: foot_bone_right
+    100034: hand_bone_left
+    100036: hand_bone_right
+    100038: handobj_bone_left
+    100040: handobj_bone_right
+    100042: hat_bone
+    100044: head_bone
+    100046: joints
+    100048: knee_bone_left
+    100050: knee_bone_right
+    100052: neck_bone
+    100054: pelvis_bone
+    100056: should_bone_left
+    100058: should_bone_right
+    100060: thigh_bone_left
+    100062: thigh_bone_right
+    100064: thumb1_bone_left
+    100066: thumb1_bone_right
+    100068: waist_bone
+    100070: avatar_facialmark_base_neutral_mesh
+    100072: avatar_glasses_base_neutral_mesh
+    100074: avatar_hair_base_male_mesh
+    100076: avatar_head_base_male_mesh
+    100078: avatar_mouth_base_neutral_mesh
+    100080: avatar_nose_base_neutral_mesh
+    100082: base_ctl
+    100084: chest_ctl
+    100086: control_rig
+    100088: eye_ctl
+    100090: facialHair_ctl
+    100092: fsu_render_occRNannotation
+    100094: fsu_render_occRNgroup
+    100096: fsu_render_occRNlocator
+    100098: Hand_ikHandle_L
+    100100: Hand_ikHandle_R
+    100102: hip_ctl
+    100104: Knee_PoleVector_L
+    100106: Knee_PoleVector_R
+    100108: l_clav_ctl
+    100110: l_clav_group
+    100112: l_elbow_ctl
+    100114: l_elbow_group
+    100116: l_elbow_pole_vector
+    100118: l_elbow_pole_vector1
+    100120: l_finger_ctl
+    100122: l_finger_group
+    100124: l_foot_ctl
+    100126: l_foot_ik
+    100128: l_ik_ctl
+    100130: l_ik_on_off
+    100132: l_knee_pole_vector
+    100134: l_object_connector_loc
+    100136: l_object_ctl
+    100138: l_shoulder_ctl
+    100140: l_shoulder_group
+    100142: l_thumb_ctl
+    100144: l_wrist_ctl
+    100146: l_wrist_group
+    100148: Leg_Control_L
+    100150: Leg_Control_R
+    100152: locator1
+    100154: neck_ctl
+    100156: r_clav_ctl
+    100158: r_clav_group
+    100160: r_elbow_ctl
+    100162: r_elbow_group
+    100164: r_finger_ctl
+    100166: r_finger_group
+    100168: r_foot_ctl
+    100170: r_foot_ik
+    100172: r_ik_ctl
+    100174: r_ik_on_off
+    100176: r_knee_pole_vector
+    100178: r_object_connector_loc
+    100180: r_object_ctl
+    100182: r_shoulder_ctl
+    100184: r_shoulder_group
+    100186: r_thumb_ctl
+    100188: r_wrist_ctl
+    100190: r_wrist_group
+    100192: root_ctl
+    400000: avatar_body_base_male_mesh
+    400002: avatar_eyes_base_neutral_mesh
+    400004: avatar_facialhair_base_neutral_mesh
+    400006: avatar_hathair_base_male_mesh
+    400008: //RootNode
+    400010: character_group
+    400012: chest_bone
+    400014: clavical_bone_left
+    400016: clavical_bone_right
+    400018: elbow_bone_left
+    400020: elbow_bone_right
+    400022: eyes_bone
+    400024: facialhair_bone
+    400026: finger1_bone_left
+    400028: finger1_bone_right
+    400030: foot_bone_left
+    400032: foot_bone_right
+    400034: hand_bone_left
+    400036: hand_bone_right
+    400038: handobj_bone_left
+    400040: handobj_bone_right
+    400042: hat_bone
+    400044: head_bone
+    400046: joints
+    400048: knee_bone_left
+    400050: knee_bone_right
+    400052: neck_bone
+    400054: pelvis_bone
+    400056: should_bone_left
+    400058: should_bone_right
+    400060: thigh_bone_left
+    400062: thigh_bone_right
+    400064: thumb1_bone_left
+    400066: thumb1_bone_right
+    400068: waist_bone
+    400070: avatar_facialmark_base_neutral_mesh
+    400072: avatar_glasses_base_neutral_mesh
+    400074: avatar_hair_base_male_mesh
+    400076: avatar_head_base_male_mesh
+    400078: avatar_mouth_base_neutral_mesh
+    400080: avatar_nose_base_neutral_mesh
+    400082: base_ctl
+    400084: chest_ctl
+    400086: control_rig
+    400088: eye_ctl
+    400090: facialHair_ctl
+    400092: fsu_render_occRNannotation
+    400094: fsu_render_occRNgroup
+    400096: fsu_render_occRNlocator
+    400098: Hand_ikHandle_L
+    400100: Hand_ikHandle_R
+    400102: hip_ctl
+    400104: Knee_PoleVector_L
+    400106: Knee_PoleVector_R
+    400108: l_clav_ctl
+    400110: l_clav_group
+    400112: l_elbow_ctl
+    400114: l_elbow_group
+    400116: l_elbow_pole_vector
+    400118: l_elbow_pole_vector1
+    400120: l_finger_ctl
+    400122: l_finger_group
+    400124: l_foot_ctl
+    400126: l_foot_ik
+    400128: l_ik_ctl
+    400130: l_ik_on_off
+    400132: l_knee_pole_vector
+    400134: l_object_connector_loc
+    400136: l_object_ctl
+    400138: l_shoulder_ctl
+    400140: l_shoulder_group
+    400142: l_thumb_ctl
+    400144: l_wrist_ctl
+    400146: l_wrist_group
+    400148: Leg_Control_L
+    400150: Leg_Control_R
+    400152: locator1
+    400154: neck_ctl
+    400156: r_clav_ctl
+    400158: r_clav_group
+    400160: r_elbow_ctl
+    400162: r_elbow_group
+    400164: r_finger_ctl
+    400166: r_finger_group
+    400168: r_foot_ctl
+    400170: r_foot_ik
+    400172: r_ik_ctl
+    400174: r_ik_on_off
+    400176: r_knee_pole_vector
+    400178: r_object_connector_loc
+    400180: r_object_ctl
+    400182: r_shoulder_ctl
+    400184: r_shoulder_group
+    400186: r_thumb_ctl
+    400188: r_wrist_ctl
+    400190: r_wrist_group
+    400192: root_ctl
+    2300000: avatar_eyes_base_neutral_mesh
+    2300002: avatar_facialhair_base_neutral_mesh
+    2300004: avatar_hathair_base_male_mesh
+    2300006: avatar_facialmark_base_neutral_mesh
+    2300008: avatar_glasses_base_neutral_mesh
+    2300010: avatar_hair_base_male_mesh
+    2300012: avatar_head_base_male_mesh
+    2300014: avatar_mouth_base_neutral_mesh
+    2300016: avatar_nose_base_neutral_mesh
+    3300000: avatar_eyes_base_neutral_mesh
+    3300002: avatar_facialhair_base_neutral_mesh
+    3300004: avatar_hathair_base_male_mesh
+    3300006: avatar_facialmark_base_neutral_mesh
+    3300008: avatar_glasses_base_neutral_mesh
+    3300010: avatar_hair_base_male_mesh
+    3300012: avatar_head_base_male_mesh
+    3300014: avatar_mouth_base_neutral_mesh
+    3300016: avatar_nose_base_neutral_mesh
+    4300000: avatar_body_base_male_mesh
+    4300002: avatar_eyes_base_neutral_mesh
+    4300004: avatar_facialhair_base_neutral_mesh
+    4300006: avatar_hathair_base_male_mesh
+    4300008: avatar_head_base_male_mesh
+    4300010: avatar_hair_base_male_mesh
+    4300012: avatar_facialmark_base_neutral_mesh
+    4300014: avatar_glasses_base_neutral_mesh
+    4300016: avatar_nose_base_neutral_mesh
+    4300018: avatar_mouth_base_neutral_mesh
+    7400000: avatar_walkv22
+    9500000: //RootNode
+    13700000: avatar_body_base_male_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: avatar_walkv22
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: avatar_body_base_male_mesh
+        weight: 1
+      - path: character_group
+        weight: 1
+      - path: joints
+        weight: 1
+      - path: joints/pelvis_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/finger1_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_left/should_bone_left/elbow_bone_left/hand_bone_left/thumb1_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/finger1_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/clavical_bone_right/should_bone_right/elbow_bone_right/hand_bone_right/thumb1_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/avatar_hathair_base_male_mesh
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/eyes_bone/avatar_eyes_base_neutral_mesh
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/facialhair_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/facialhair_bone/avatar_facialhair_base_neutral_mesh
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/chest_bone/neck_bone/head_bone/hat_bone
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/handobj_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/handobj_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/thigh_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/thigh_bone_left/knee_bone_left/foot_bone_left
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/thigh_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right
+        weight: 1
+      - path: joints/pelvis_bone/waist_bone/thigh_bone_right/knee_bone_right/foot_bone_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: pelvis_bone
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_bone_left
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh_bone_right
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_bone_left
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: knee_bone_right
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_bone_left
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_bone_right
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest_bone
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck_bone
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head_bone
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavical_bone_left
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavical_bone_right
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: should_bone_left
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: should_bone_right
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: elbow_bone_left
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: elbow_bone_right
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_bone_left
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_bone_right
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: avatar_eyes_base_neutral_mesh
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: avatar_facialhair_base_neutral_mesh
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: avatar_walk_anim2(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_body_base_male_mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: character_group
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: .333999991, y: .333999991, z: .333999991}
+      transformModified: 1
+    - name: joints
+      position: {x: 8.88178367e-17, y: .209259659, z: .0395498946}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pelvis_bone
+      position: {x: -8.88178367e-17, y: -.162659034, z: -.0357454903}
+      rotation: {x: .447238773, y: -.547701955, z: -.447238773, w: .547702014}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: waist_bone
+      position: {x: -.0209130626, y: -2.32830644e-09, z: -1.71973591e-09}
+      rotation: {x: 1.49011612e-08, y: 0, z: -.0706818849, w: .99749893}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: chest_bone
+      position: {x: -.0557582118, y: .0010743707, z: -3.4559855e-09}
+      rotation: {x: 0, y: 0, z: -.00598534942, w: .999982119}
+      scale: {x: 1, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: clavical_bone_left
+      position: {x: .00013127859, y: .00263208384, z: .0340058543}
+      rotation: {x: -.487904906, y: .511809349, z: .487904906, w: .511809409}
+      scale: {x: .999999881, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: should_bone_left
+      position: {x: -.0213022158, y: 4.97674e-06, z: 4.79872357e-11}
+      rotation: {x: -.00199556304, y: .00201010727, z: .00455318298, w: .999985695}
+      scale: {x: .999999762, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: elbow_bone_left
+      position: {x: -.0476327576, y: 6.73462637e-08, z: 6.03187456e-09}
+      rotation: {x: .999975085, y: .00705915689, z: -2.91030986e-08, w: -1.23268507e-10}
+      scale: {x: 1.00000012, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: hand_bone_left
+      position: {x: -.0525722802, y: 4.83705662e-08, z: 1.72629711e-09}
+      rotation: {x: -.704730034, y: -.709475577, z: -7.74662201e-09, w: -4.60964378e-10}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger1_bone_left
+      position: {x: .00607199222, y: -.0088092275, z: -.00702773128}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb1_bone_left
+      position: {x: .00977302715, y: -.000327430636, z: .0015268625}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavical_bone_right
+      position: {x: .000131278488, y: .00263208547, z: -.0340058021}
+      rotation: {x: -.487904906, y: .511809349, z: .487904906, w: .511809409}
+      scale: {x: .999999762, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: should_bone_right
+      position: {x: .0213022828, y: 4.98518239e-06, z: -3.9285788e-09}
+      rotation: {x: .00202517351, y: -.0019803755, z: .999924481, w: .0119599253}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: elbow_bone_right
+      position: {x: -.0476275422, y: -.000705669692, z: 1.39540344e-08}
+      rotation: {x: .999975085, y: .00705915689, z: 5.78467674e-09, w: 4.88759166e-09}
+      scale: {x: .999999881, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: hand_bone_right
+      position: {x: -.0525675789, y: -.000705666142, z: -4.31975344e-09}
+      rotation: {x: -.704730034, y: -.709475577, z: -1.37894558e-08, w: -1.36060168e-08}
+      scale: {x: 1, y: 1.00000012, z: .999999702}
+      transformModified: 1
+    - name: finger1_bone_right
+      position: {x: -.00607199548, y: -.00880920235, z: -.0070277378}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb1_bone_right
+      position: {x: -.0097729899, y: -.000327399466, z: .00152686227}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck_bone
+      position: {x: -.0241429824, y: 1.87428668e-08, z: -1.1056448e-09}
+      rotation: {x: -.999022424, y: .0442063622, z: -2.98023188e-08, w: 2.98023188e-08}
+      scale: {x: .999999881, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: head_bone
+      position: {x: -.0934244692, y: -9.54605639e-09, z: -5.42390022e-10}
+      rotation: {x: .489740551, y: -.510053158, z: .489740551, w: .510053158}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: avatar_hathair_base_male_mesh
+      position: {x: 9.45170582e-17, y: -.218006954, z: -5.35259414e-06}
+      rotation: {x: -1.35898237e-14, y: -2.08955537e-16, z: 1.34980232e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyes_bone
+      position: {x: -9.31322464e-10, y: -.00563701009, z: .114891678}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_eyes_base_neutral_mesh
+      position: {x: -3.00937627e-05, y: -.00922015868, z: -.0279576648}
+      rotation: {x: -1.35898237e-14, y: -2.08955537e-16, z: 1.34980232e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: facialhair_bone
+      position: {x: -9.31322575e-10, y: -.0425221957, z: .114891693}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: avatar_facialhair_base_neutral_mesh
+      position: {x: -3.00937627e-05, y: .00814585388, z: -.0272496082}
+      rotation: {x: -1.35898237e-14, y: -2.08955537e-16, z: 1.34980232e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hat_bone
+      position: {x: -4.65661343e-10, y: .119217381, z: .0217519421}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: handobj_bone_left
+      position: {x: .0254901219, y: -.00152571662, z: .0320000201}
+      rotation: {x: -.54340142, y: .495976716, z: .364682198, w: .570726752}
+      scale: {x: .996379435, y: .996379316, z: .996379018}
+      transformModified: 1
+    - name: handobj_bone_right
+      position: {x: .025490094, y: -.00152573816, z: -.0324419774}
+      rotation: {x: .487413555, y: .458541781, z: -.542013705, w: .508319497}
+      scale: {x: 1.00000012, y: 1, z: .999999762}
+      transformModified: 1
+    - name: thigh_bone_left
+      position: {x: .026815461, y: .00331444247, z: .0206398107}
+      rotation: {x: .973737776, y: .227672562, z: 0, w: 2.98023259e-08}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: knee_bone_left
+      position: {x: .014403861, y: .00818990637, z: 3.23148419e-09}
+      rotation: {x: .877478719, y: .479615659, z: -1.49011612e-08, w: -8.94069672e-08}
+      scale: {x: 1, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: foot_bone_left
+      position: {x: .0200506002, y: .00994216092, z: -6.06101924e-09}
+      rotation: {x: -.518212736, y: -.855250657, z: .000801831484, w: -.00113147497}
+      scale: {x: .999999881, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: thigh_bone_right
+      position: {x: .0267955679, y: .00298157334, z: -.0206397846}
+      rotation: {x: -.203732401, y: .977293372, z: .056053862, w: .0157757699}
+      scale: {x: .999999583, y: .999999881, z: 1}
+      transformModified: 1
+    - name: knee_bone_right
+      position: {x: -.0146952122, y: -.00742344139, z: 2.02827905e-05}
+      rotation: {x: -.879920006, y: -.475076288, z: -5.5402521e-05, w: .00658677565}
+      scale: {x: 1.00000036, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_bone_right
+      position: {x: -.0197318923, y: -.0107010873, z: 3.00032989e-05}
+      rotation: {x: .501134872, y: .863672435, z: .0277025159, w: -.0465441421}
+      scale: {x: 1.00000012, y: .999999762, z: .999999821}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
